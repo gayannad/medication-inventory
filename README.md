@@ -18,8 +18,8 @@ REST API s built with Laravel that handles user authentication, medication inven
 
 ## Installation
 
-- git clone https://github.com/your-repository/laravel-api.git
-- cd laravel-api
+- git clone https://github.com/gayannad/medication-inventory
+- cd medication-inventory
 - composer install
 - cp .env.example .env
 - php artisan key:generate
