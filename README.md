@@ -17,20 +17,36 @@ REST API s built with Laravel that handles user authentication, medication inven
 - Customer management
 
 ## Installation
+```bash
+git clone https://github.com/gayannad/medication-inventory
+```
+```bash
+cd medication-inventory
+```
+```bash
+composer install
+```
+```bash
+cp .env.example .env
+```
+```bash
+php artisan key:generate
+```
 
-- git clone https://github.com/gayannad/medication-inventory
-- cd medication-inventory
-- composer install
-- cp .env.example .env
-- php artisan key:generate
+### Database Connection
+
+- You can use sqlite or mysql for the database connection.
 
 ## Seeding the Database
 
-- php artisan db:seed
+```bash
+php artisan migrate:fresh  --seed
+```
 
 ## Run project
-
-- php artisan serve
+```bash
+php artisan serve
+```
 
 
 
